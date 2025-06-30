@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+<suite name="OrangeHRM Smoke Suite" parallel="false">
+  
+  <test name="PIM Feature Smoke Test">
+  
+    <groups>
+      <run>
+        <include name="Smoke"/>
+      </run>
+    </groups>
+    
+    <classes>
+      <class name="com.orangehrm.tests.TestPIMPage1">
+        <methods>
+          <!-- Run only this Smoke test method -->
+          <include name="editEmployeeDetails"/>
+        </methods>
+      </class>
+    </classes>
+    
+  </test>
+</suite>

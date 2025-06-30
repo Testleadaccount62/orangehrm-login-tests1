@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<suite name="OrangeHRM Smoke Suite" parallel="none">
+    <test thread-count="5" name="SmokeTest">
+
+        <groups>
+            <run>
+                <include name="Smoke"/>
+            </run>
+        </groups>
+
+        <classes>
+            <class name="com.orangehrm.tests.TestPIMPage1"/>
+        </classes>
+
+    </test>
+</suite>

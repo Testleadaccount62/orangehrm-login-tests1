@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="OrangeHRM Automation Suite" verbose="1" parallel="none">
+
+    <test name="Smoke Testing - OrangeHRM Live Demo">
+        <classes>
+            <class name="com.orangehrm.tests.TestPIMPage1">
+                <methods>
+                   
+                    <include name="viewEmployeeList"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>
